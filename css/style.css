@@ -19,10 +19,17 @@
   font-style: normal;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #292929;
   color: #fff;
   font-family: "Gotham Pro", sans-serif;
+  margin: 0;
 }
 
 .header {
@@ -65,7 +72,159 @@ body {
   font-size: 16px;
 }
 
+.hero {
+  text-align: center;
+  padding-top: 100px;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.hero-title {
+  font-size: 34px;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+  letter-spacing: 0.34px;
+  font-family: "Gotham Pro Medium";
+}
+
+.hero-description {
+  font-family: "Gotham Pro Light";
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+}
+
 .flowers-slider {
   width: 100%;
   text-align: center;
+  margin-bottom: 83px;
+  margin-top: 87px;
+}
+
+:root {
+  --swiper-navigation-size: 18px;
+}
+
+.hero-slider-arrow {
+  color: #4c4c4c;
+}
+
+.hero-slider-arrow:hover {
+  color: #ff3469;
+}
+
+.hero-cta {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-bottom: 36px;
+  display: block;
+  font-family: "Gotham Pro Light";
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff2e55;
+  padding: 30px 65px 25px 65px;
+  margin-top: 36px;
+  margin-bottom: 77px;
+  display: inline-block;
+}
+
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.review-image {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Gotham Pro Light";
+  margin-right: 50px;
+}
+
+.review-image-1 {
+  background: #000 url("../img/reviews/review-1.jpg") no-repeat 50% 50%;
+}
+
+.review-image-2 {
+  background: #000 url("../img/reviews/review-2.jpg") no-repeat 50% 50%;
+}
+
+.review-image-3 {
+  background: #000 url("../img/reviews/review-3.jpg") no-repeat 50% 50%;
+}
+
+.review-name {
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+.review-slide {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.review-text {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+}
+
+.review-link {
+  color: #f24841;
+}
+
+.review-slider-arrow {
+  color: #4c4c4c;
+}
+
+.review-slider-arrow:hover {
+  color: #f24841;
+}
+
+.reviews-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  margin-bottom: 98px;
+}
+
+.advantages {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.advantage-wrapper {
+  min-height: 85px;
+  margin-bottom: 30px;
+}
+
+.advantages-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  max-width: 270px;
+  margin: auto;
+}
+
+.goods-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  margin-top: 98px;
+}
+
+.pink-text {
+  color: #ff3469;
 }
