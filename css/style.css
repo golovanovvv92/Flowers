@@ -219,6 +219,10 @@ body {
   margin: auto;
 }
 
+.goods {
+  padding-bottom: 65px;
+}
+
 .goods-title {
   text-transform: uppercase;
   text-align: center;
@@ -337,4 +341,104 @@ body {
   display: inline-block;
   margin-left: 14px;
   vertical-align: middle;
+}
+
+.feedback {
+  background-color: #000000;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  text-align: center;
+  border-bottom: 1px solid #474747;
+}
+
+.feedback-text {
+  font-family: "Gotham Pro Medium";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.call-request {
+  color: #fff;
+}
+
+.call-phone {
+  text-transform: lowercase;
+  margin-bottom: 27px;
+  margin-top: 55px;
+}
+
+.feedback-phone {
+  font-family: "Gotham Pro";
+  font-size: 36px;
+  margin: 0;
+}
+
+.contacts {
+  background-color: #292929;
+  padding-top: 52px;
+  padding-bottom: 43px;
+}
+
+.contacts-right {
+  text-align: right;
+}
+
+.contacts-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 35px;
+  font-size: 18px;
+  font-family: "Gotham Pro Medium";
+  margin-bottom: 33px;
+  display: inline-block;
+}
+
+.add-social {
+  font-size: 16px;
+  font-family: "Gotham Pro";
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts-text {
+  font-size: 14px;
+  font-family: "Gotham Pro";
+}
+
+.contacts-phone {
+  font-size: 24px;
+  font-family: "Gotham Pro Medium";
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.add-social::after {
+  width: 20px;
+  height: 12px;
+  background: url("../img/vk.png") no-repeat center;
+  display: inline-block;
+  content: "";
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.footer {
+  padding-top: 48px;
+  padding-bottom: 45px;
+  background-color: #fff;
+}
+
+.footer-description {
+  font-family: "Gotham Pro Light";
+  letter-spacing: 0.12px;
+  font-size: 12px;
+  color: #292929;
+}
+
+.developer-text {
+  color: #292929;
+}
+
+.developer-text a {
+  color: #292929;
 }
